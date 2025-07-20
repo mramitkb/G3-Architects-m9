@@ -60,7 +60,7 @@ header{
 .banner-container{
     margin-top: 100px;
     max-width: 1440px;
-    margin: 100px auto 50px;
+    margin: 100px auto 0;
 }
 .banner-info{
     text-align: center;
@@ -78,4 +78,45 @@ header{
     margin: 50px 0;
     border-radius: 8px;
     width: 100%;
+}
+
+
+/* Features Section */
+.features-container{
+    max-width: 1440px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.features-img{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.features-img img{
+    width: 100%;
+}
+.features-info{
+    width: 50%;
+}
+.features-info h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.features-info p{
+    width: 90%;
+    margin: 20px 0;
+    color: #727272;
+}
+.silver{
+    color: #727272;
+}
+.black{
+    color: #131313;
+}
+.site-color{
+    color: #FF900E;
 }
