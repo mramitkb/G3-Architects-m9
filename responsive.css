@@ -1,85 +1,135 @@
 /* Mobile Devices Responsive */
 @media (max-width: 576px) {
-    .nav-container{
-        flex-direction: column;
-    }
-    .nav-container h1, .nav-container ul{
-        width: 100%;
-        padding: 0 20px;
-        text-align: center;
-        margin-bottom: 10px;
+  .nav-container,
+  .features-container,
+  .experience-container {
+    flex-direction: column;
+  }
+  .nav-container h1,
+  .nav-container ul {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+
+  .banner-container {
+    margin-top: 20px;
+  }
+  .banner-info h1 {
+    font-size: 2rem;
+  }
+  .banner-info p {
+    width: 100%;
+  }
+  .primary-btn {
+    font-size: 1rem;
+    padding: 15px 25px;
+  }
+  .banner-img {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .features-img {
+    grid-template-columns: 1fr;
+  }
+  .features-img,
+  .features-info,
+  .experience-info,
+  .experience-img {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .features-info h1 {
+    font-size: 2.5rem;
+  }
+  .features-info p {
+      width: 100%;
     }
 
-
-    .banner-container{
-        margin-top: 20px;
+    .experience-container{
+        margin: 40px 0;
+        gap: 50px;
     }
-    .banner-info h1{
-        font-size: 40px;
+    .experience-img{
+        position: relative;
     }
-    .banner-info p{
-        width: 100%;
-    }
-    .primary-btn{
-        font-size: 16px;
-        padding: 15px 25px;
-    }
-    .banner-img{
-        width: 100%;
-        padding: 0 20px;
-    }
-
-
-    .features-container{
-        flex-direction: column;
-    }
-    .features-img, .features-info{
-        width: 100%;
-        padding: 0 20px;
-        text-align: center;
-    }
-    .features-info h1{
-        font-size: 40px;
-    }
-    .features-info p{
-        width: 100%;
-    }
+  .ten {
+    position: absolute;
+    left: 150px;
+    bottom: 10px;
+    padding: 12px;
+    margin: 0 auto;
+  }
+  .ten h2 {
+    font-size: 1.75rem;
+  }
+  .ten p {
+    font-size: 0.90rem;
+  }
 }
 
 /* Laptops Responsive */
 @media (min-width: 576px) and (max-width: 768px) {
-    .nav-container{
-        max-width: 650px;
-        margin: 0 auto;
-    }
-    .nav-container h1{
-        font-size: 36px;
-    }
-    .nav-container ul{
-        font-size: 14px;
-    }
+  .nav-container {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  .nav-container h1 {
+    font-size: 2.25rem;
+  }
+  .nav-container ul {
+    font-size: 0.875rem;
+  }
 
+  .banner-info h1 {
+    font-size: 2.5rem;
+  }
+  .banner-info p {
+    font-size: 0.875rem;
+  }
+  .primary-btn {
+    font-size: 1rem;
+    padding: 15px 25px;
+  }
+  .banner-img {
+    padding: 0px 15px;
+    width: 100%;
+  }
 
-    .banner-info h1{
-        font-size: 40px;
-    }
-    .banner-info p{
-        font-size: 14px;
-    }
-    .primary-btn{
-        font-size: 16px;
-        padding: 15px 25px;
-    }
-    .banner-img{
-        padding: 0px 15px;
-        width: 100%;
-    }
+  .features-container {
+    padding: 20px;
+  }
+  .features-info h1 {
+    font-size: 2.25rem;
+  }
 
-
-    .features-container{
-        padding: 20px;
-    }
-    .features-info h1{
-        font-size: 36px;
-    }
+  .experience-container{
+    flex-direction: column;
+    gap: 70px;
+    margin-bottom: 60px;
+  }
+  .experience-info, .experience-img{
+    width: 100%;
+    padding: 0 20px;
+ }
+ .experience-img{
+    position: relative;
+ }
+ .ten{
+    position: absolute;
+    padding: 16px;
+    left: 35%;
+    bottom: 10px;
+    margin: 0 auto;
+ }
+ .ten h2{
+    font-size: 3rem;
+ }
+ .ten p{
+    font-size: 1rem;
+ }
 }
