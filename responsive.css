@@ -3,7 +3,8 @@
   .nav-container,
   .features-container,
   .experience-container,
-  .facts-container {
+  .facts-container,
+  .footer-img {
     flex-direction: column;
   }
   .nav-container h1,
@@ -83,6 +84,19 @@
   .facts-container {
     margin: 60px 0;
     gap: 30px;
+  }
+
+  .footer p{
+    width: 100%;
+  }
+  .footer-img{
+    gap: 20px;
+  }
+  .footer-img img{
+    width: 40%;
+  }
+  .rights{
+    padding: 20px 0;
   }
 }
 
@@ -166,5 +180,13 @@
   .cart {
     padding: 20px;
     height: 200px;
+  }
+
+
+  .footer-img{
+    flex-direction: row;
+  }
+  .footer-img img{
+    width: 15%;
   }
 }
