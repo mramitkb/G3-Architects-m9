@@ -15,4 +15,67 @@
     font-size: 20px;
     padding: 20px 25px;
     font-weight: 600;
+    border: none;
+}
+.primary-btn:hover{
+    color: black;
+    cursor: pointer;;
+}
+
+/* Header Section */
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    max-height: 1322px;
+}
+.nav-container{
+    padding-top: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-container h1{
+    width: 50%;
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-container ul{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-container ul>li{
+    list-style: none;
+}
+.nav-container a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18x;
+    font-weight: 500;
+}
+
+/* Banner Section */
+.banner-container{
+    margin-top: 100px;
+    max-width: 1440px;
+    margin: 100px auto 50px;
+}
+.banner-info{
+    text-align: center;
+}
+.banner-info h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner-info p{
+    color: #727272;
+    width: 60%;
+    margin: 32px auto;
+}
+.banner-img{
+    margin: 50px 0;
+    border-radius: 8px;
+    width: 100%;
 }
